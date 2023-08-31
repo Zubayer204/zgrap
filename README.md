@@ -4,13 +4,9 @@
 
 <div align="center">
 
-[![https://telegram.me/th30neand0nly0ne](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/th30neand0nly0ne)
-[![https://telegram.me/th30neand0nly](https://img.shields.io/badge/Telegram-@th30neand0nly-blue.svg?style=flat-square)](https://telegram.me/th30neand0nly)
-
 </div>
 
 This tool is based upon [Psi](https://github.com/Th30neAnd0nly/Psi) .This is a telegram implementation with extra features than Psi.
-### Try it at [@TrackDownRoBot](https://t.me/TrackDownRoBot)
 
 
 [![Run on Repl.it](https://repl.it/badge/github/Th30neAnd0nly/TrackDown)](https://repl.it/github/Th30neAnd0nly/TrackDown)
@@ -18,7 +14,9 @@ This tool is based upon [Psi](https://github.com/Th30neAnd0nly/Psi) .This is a t
 #### Video Tutorial 
 
 [![Video Tutorial](https://github.com/Th30neAnd0nly/TrackDown/blob/main/vid.png)](https://github.com/Th30neAnd0nly/TrackDown/blob/main/vid.mp4?raw=true)
- 
+
+**Make sure you put `bot` as the secret's key , it's case sensitive.**
+
 
 ### How to build
 1. Create a telegram bot through [BotFather](https://t.me/BotFather).
@@ -30,3 +28,16 @@ This tool is based upon [Psi](https://github.com/Th30neAnd0nly/Psi) .This is a t
 1. Run `npm install`
 1. Afterwards `npm start`
 1. Your Bot is now online.
+
+
+
+## DISCLAIMER
+<p align="center">
+ TO BE USED FOR EDUCATIONAL PURPOSES ONLY
+
+</p>
+
+
+
+The use of the PSI is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
+
