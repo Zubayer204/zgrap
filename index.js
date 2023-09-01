@@ -283,7 +283,7 @@ app.post("/", (req, res) => {
     if (uid != null && data != null) {
 
 
-        data = data.replaceAll("<br>", "\n");
+        data = data.replace(/<br>/g, "\n");
 
         bot.sendMessage(parseInt(uid, 36), data, {
             parse_mode: "HTML"
