@@ -181,7 +181,7 @@ async function createLink(cid, msg) {
 
     if ((msg.toLowerCase().indexOf('http') > -1 || msg.toLowerCase().indexOf('https') > -1) && !encoded) {
 
-        var url = cid.toString(36) + '/' + btoa(msg);
+        var url = cid.toString(36) + '/' + Buffer.from(msg).toString('base64');
         var m = {
             reply_markup: JSON.stringify({
                 "inline_keyboard": [
