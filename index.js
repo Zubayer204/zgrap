@@ -4,7 +4,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const TelegramBot = require('node-telegram-bot-api');
-const bot = new TelegramBot(process.env.TG_API_KEY {
+const bot = new TelegramBot(process.env.TG_API_KEY, {
     polling: true
 });
 var jsonParser = bodyParser.json({
@@ -23,7 +23,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL = "https://44c4-103-134-28-217.ngrok-free.app";
+var hostURL = "https://zgrap.onrender.com";
 //TOGGLE for 1pt Proxy and Shorters
 var use1pt = true;
 
